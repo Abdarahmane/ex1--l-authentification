@@ -1,0 +1,28 @@
+1. Qu'est-ce que l'authentification ?
+
+ L'authentification est le processus de vérification de l'identité d'un utilisateur ou d'un système avant de lui accorder l'accès à une ressource. 
+
+2. Différence entre authentification et autorisation :
+
+    Authentification : C'est le processus de vérification de l'identité d'un utilisateur (qui est-il ?).
+    Autorisation : Après authentification, l'autorisation détermine les actions ou les ressources auxquelles cet utilisateur peut accéder (qu'a-t-il le droit de faire ?).
+
+3. Qu'est-ce qu'un JWT (JSON Web Token) ? 
+
+Un JWT est un standard ouvert pour la création de jetons d'accès qui permettent d'échanger des informations entre un client et un serveur sous une forme compacte et sécurisée. Un JWT est signé pour garantir que son contenu n'a pas été modifié.
+
+4. Pourquoi utiliser des tokens pour l’authentification ?
+
+ Les tokens, comme les JWT, sont utilisés pour l'authentification parce qu'ils sont stateless (ne nécessitent pas de stockage sur le serveur), ils permettent une authentification distribuée facile, et sont particulièrement bien adaptés aux architectures modernes comme les API RESTful.
+
+5. Différence entre les sessions traditionnelles et les tokens JWT :
+
+    Sessions traditionnelles : Les sessions stockent des informations d'authentification sur le serveur, ce qui peut devenir difficile à gérer à grande échelle.
+    Tokens JWT : Les JWT sont auto-contenus et ne nécessitent pas de stockage sur le serveur. Ils sont inclus dans chaque requête et peuvent être validés directement par le serveur à chaque demande.
+
+6. Avantages de l'authentification dans une application web :
+
+    Sécurité renforcée
+    Meilleure gestion des utilisateurs
+    Contrôle des accès aux ressources sensibles
+    Amélioration de l'expérience utilisateur grâce à des sessions sécurisées.
